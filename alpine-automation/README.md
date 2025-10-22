@@ -1,6 +1,6 @@
-# Alpine Bank Automation
+# Alpine Automation
 
-Enterprise-grade AI automation solutions for banking operations using the crewAI framework.
+Enterprise-grade AI automation solutions for banking and business operations using the crewAI framework.
 
 ## Overview
 
