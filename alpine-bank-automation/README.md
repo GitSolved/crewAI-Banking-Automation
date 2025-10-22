@@ -17,8 +17,8 @@ Automated compliance workflows including:
 - Policy adherence monitoring
 - Audit trail generation
 
-### IT Automation
-**Path**: `it-automation/`
+### Information Technology Automation
+**Path**: `information-technology-automation/`
 
 IT operations and infrastructure automation:
 - System monitoring and alerts
@@ -35,8 +35,8 @@ Financial operations and accounting workflows:
 - Invoice processing
 - General ledger automation
 
-### HR Automation
-**Path**: `hr-automation/`
+### Human Resources Automation
+**Path**: `human-resources-automation/`
 
 Human resources process automation:
 - Employee onboarding
