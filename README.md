@@ -1,4 +1,4 @@
-# crewAI-banking-automation
+# crewAI-Banking-Automation
 Multi-agent AI automation for banking and business workflows. This project demonstrates autonomous AI agent systems using the crewAI framework to perform complex, multi-step automation tasks across banking operations and various business domains. 
 ## Goal
 Designing effective AI agents and organize team of AI agents them to perform complex, multi-step tasks.
