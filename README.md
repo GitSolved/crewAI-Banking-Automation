@@ -35,7 +35,7 @@ Each project leverages multi-agent collaboration where specialized AI agents wor
 
 ```bash
 # Clone repository
-git clone https://github.com/SecureYourGear/crewAI-Banking-Automation.git
+git clone https://github.com/GitSolved/crewAI-Banking-Automation.git
 cd crewAI-Banking-Automation
 
 # Install UV (recommended)
