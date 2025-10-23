@@ -1,0 +1,14 @@
+[project]
+name = "resume_job_matcher"
+version = "0.1.0"
+description = "resume_job_matcher using crewAI"
+authors = [{name = "Your Name", email = "you@example.com"}]
+requires-python = ">=3.10,<=3.13"
+dependencies = [
+    "crewai[tools]>=0.152.0",
+    "crewai-tools>=0.58.0",
+]
+
+[project.scripts]
+resume_job_matcher = "resume_job_matcher.main:run"
+train = "resume_job_matcher.main:train"

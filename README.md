@@ -12,10 +12,6 @@ When LLMs operate autonomously, they become agents. AI Agents ask and answer que
 
 LLMs +  Cognition = AI Agents.
 
-![image](https://github.com/akj2018/Multi-AI-Agent-Systems-with-crewAI/assets/43956935/75006d77-a7b1-493f-ad69-9fe6809dfba0)
-
-Source: deeplearning.ai
-
 ## crewAI
 Framework for building multi-agent systems (that are autonomous, role-playing and collaborate)
 <br>
@@ -27,11 +23,6 @@ crew : Team of AI agents working together, each with a specific role.
   <li>Assign specific role and specific task to each agent and improved output. Eg. One agent does exhaustive research and other does professional writing.</li>
   <li>Use different LLMs for specific tasks</li>
 </ol>
-
-![image](https://github.com/akj2018/Multi-AI-Agent-Systems-with-crewAI/assets/43956935/9ca0ed1b-275c-4844-a7a9-38689a6f4558)
-![image](https://github.com/akj2018/Multi-AI-Agent-Systems-with-crewAI/assets/43956935/e5f32cc8-7129-470f-b6bd-00baaa3c83a5)
-
-Source: deeplearning.ai
 
 ## Applications of multi-agent systems.
 <ul>
@@ -45,13 +36,9 @@ Source: deeplearning.ai
 
 
 ## What is Agentic Automation
-New way to write software. Provide fizzy inputs, apply fuzzy tranformations and get fuzzy outputs.
+New way to write software. Provide fuzzy inputs, apply fuzzy transformations and get fuzzy outputs.
 
-Reason why people love chatGPT: <b>Probablistic nature</b>
-
-![image](https://github.com/akj2018/Multi-AI-Agent-Systems-with-crewAI/assets/43956935/2421f98a-a0e0-4592-9d29-8611b066b858)
-
-Source: deeplearning.ai
+Reason why people love chatGPT: <b>Probabilistic nature</b>
 
 ## How Agentic Automation improves regular automation
 
@@ -60,21 +47,13 @@ Source: deeplearning.ai
 - Capture information about the company
 - Use classification to generate scores for company
 - Prioritise for sales
-  
-![image](https://github.com/akj2018/Multi-AI-Agent-Systems-with-crewAI/assets/43956935/2d50a509-3f21-4dea-af08-4f862eecf244)
-
-Source: deeplearning.ai
 
 ### Agentic Automation (Data Collection and Analysis using crew)
 
 - AI agent research about company (via Google, internal database)
 - AI agent compares companies (new ones, old ones)
 - AI agent scores companies (based on parameters)
-- AI agent provides intelligent questions to ask based on scores 
-
-![image](https://github.com/akj2018/Multi-AI-Agent-Systems-with-crewAI/assets/43956935/92fc74cd-6574-49ce-b37d-5ac79f0ba0fb)
-
-Source: deeplearning.ai
+- AI agent provides intelligent questions to ask based on scores
 
 ## Key Components of AI Agent
 <ul>
@@ -85,12 +64,6 @@ Source: deeplearning.ai
   <li><b>Guardrails:</b> Effectively handle errors, hallucinations and infinite loops.</li>
   <li><b>Cooperation:</b> Perform tasks in series, in parallel and hierarchical fashion</li>
 </ul>
-
-![image](https://github.com/akj2018/Multi-AI-Agent-Systems-with-crewAI/assets/43956935/93a98968-ed9d-4979-902a-4843d0a0228e)
-![image](https://github.com/akj2018/Multi-AI-Agent-Systems-with-crewAI/assets/43956935/ec2537e1-563c-4a94-a33e-4f811ca39eda)
-![image](https://github.com/akj2018/Multi-AI-Agent-Systems-with-crewAI/assets/43956935/e54c7770-db7b-4464-b0c7-4b91c4e98acd)
-
-Source: deeplearning.ai
 
 ### Role Playing  
 More specific role = Better response. Gives clear idea about agent's function in the crew.
@@ -111,7 +84,7 @@ agent = Agent(
 ```
 
 ### Focus 
-Assinging too many tasks, tools, context to a single agent, cause losing essential information and hallucinate.
+Assigning too many tasks, tools, context to a single agent, can cause losing essential information and hallucination.
 
 Therefore, break down task, goals and tools and assign to multiple AI agents for better performance
 
@@ -167,7 +140,7 @@ task = Task(
 ```
 
 ### Collaboration  
-Agents collobrate to combine skills, share information, delegate tasks to each other.
+Agents collaborate to combine skills, share information, delegate tasks to each other.
 
 #### Sequential Collaboration
 
@@ -185,7 +158,7 @@ report_crew = Crew(
 
 <ul>
   <li>CrewAI automatically creates a manager agent, requiring the specification of a manager language model (manager_llm) for the manager agent.</li>
-  <li>THe manager allocates tasks among crew members based on their roles, tools and capabilities.</li>
+  <li>The manager allocates tasks among crew members based on their roles, tools and capabilities.</li>
   <li>The manager evaluates outcomes to ensure they meet the required standards.</li>
   <li>set Process attribute to Process.hierarchical for Crew object</li>
   <li>set manager_llm for Crew Object. Mandatory for hierarchical process</li>
@@ -232,8 +205,8 @@ write_article = Task(
 )
 ```
 
-### Gaurdrails
-Implemented at Framework level to prevrnt hallucinations, errors and infintite loops. 
+### Guardrails
+Implemented at Framework level to prevent hallucinations, errors and infinite loops. 
 
 ### Memory
 CrewAI provides short-term memory, long-term memory, entity memory, and newly identified contextual memory to help AI agents to remember, reason, and learn from past interactions.
@@ -242,10 +215,6 @@ Advantages of Memory
 - **More contexual awareness**, leading to more coherent and relevant responses
 - **Experience Accumulation**, learning from past actions to improve future decision-making and problem-solving.
 - **Entity Understanding**, agents can recognize and remember key entities, enhancing understanding.
-
-![image](https://github.com/akj2018/Multi-AI-Agent-Systems-with-crewAI/assets/43956935/7aee6070-7896-44ed-88d1-af9b1ece7edb)
-
-Source: deeplearning.ai
 
 Enable memory by setting memory=True in the Crew objects arguments.
 
@@ -261,9 +230,6 @@ my_crew = Crew(
     verbose=True
 )
 ```
-![image](https://github.com/akj2018/Multi-AI-Agent-Systems-with-crewAI/assets/43956935/0c55c13d-1468-44be-9aa9-44ba00ecebcb)
-
-Source: deeplearning.ai
 
 ## Mental Framework for Agent creations
 
@@ -278,15 +244,11 @@ Answer 3 questions:
 
 This will help to create agents (roles, goals, backstory)
 
-![image](https://github.com/akj2018/Multi-AI-Agent-Systems-with-crewAI/assets/43956935/e91b1c62-f62d-4316-a5b5-ef152cb27cf7)
-
-Source: deeplearning.ai
-
 ## What makes a great Tool ?
 
-- **Versatile:** Hndle Fuzzy inputs and provide strongly typed outputs
+- **Versatile:** Handle Fuzzy inputs and provide strongly typed outputs
 - **Caching Mechanism:** Reuse previous results. Caching layer prevent unnecessary requests, stay within rate limits, speed up execution time
-- **Error Handling:**  Gracefully handle erors & exceptions. How ? Sending error message to agent and ask agent to retry
+- **Error Handling:**  Gracefully handle errors & exceptions. How? Sending error message to agent and ask agent to retry
 
  **NOTE:** CrewAI supports both crewAI Toolkit and LangChain Tools
 
@@ -303,23 +265,15 @@ Task requires min. 3 things:
   <li>agent that will perform the task</li>
 </ol>
 
-![image](https://github.com/akj2018/Multi-AI-Agent-Systems-with-crewAI/assets/43956935/2243837a-53da-4fb0-9e51-4670283ebc5e)
-
-Source: deeplearning.ai
-
 ## Multi-agent Collaboration
 
 ### Problem with Sequential Collaboration
 
 Initial context fades away as tasks flows from agent to agent.
 
-![image](https://github.com/akj2018/Multi-AI-Agent-Systems-with-crewAI/assets/43956935/bb872f15-5a2f-46a7-8f13-e275417bf223)
-
-Source: deeplearning.ai
-
 ### Advantages with Hierarchical Collaboration
 
-- Manager always remeber initial goal
+- Manager always remembers initial goal
 - Automatically delegates tasks
 - Asks agents for further improvement, if required.
 

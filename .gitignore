@@ -77,6 +77,44 @@ Thumbs.db
 
 # Testing
 .pytest_cache/
+**/.pytest_cache/
 .coverage
 htmlcov/
 .tox/
+.hypothesis/
+*.cover
+
+# CrewAI Training & Agent Data
+**/trained_agents_data.pkl
+**/training_data.pkl
+*.pkl
+*.pickle
+
+# Agent-Generated Outputs (execution artifacts)
+**/tailored_resume.md
+**/interview_materials.md
+**/marketing_report.md
+**/venue_details.json
+**/new_tasks.csv
+
+# Flow Runtime Files
+**/meeting_notes.txt
+**/email_drafts/
+temp_*.csv
+
+# Jupyter Checkpoints (enhanced pattern)
+**/.ipynb_checkpoints/
+**/.ipynb_checkpoints/*
+
+# Vector Databases & Embeddings (future-proofing)
+*.faiss
+*.index
+**/chroma_db/
+**/vector_store/
+*.bin
+*.h5
+
+# macOS Extended Attributes
+._*
+.Spotlight-V100
+.Trashes
